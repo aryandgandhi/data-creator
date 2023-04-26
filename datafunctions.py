@@ -7,7 +7,7 @@ import datetime
 from datetime import date, timedelta
 
 
-def statoperation(max_val, ):
+def statoperation(max_val,test_df,try_list,vals_list):
      for k in range (1,max_val):
             #includes 1 and 10
             for q in (test_df['ORDER_QTY'].values.tolist()): #q is each value in the ordre_qty
